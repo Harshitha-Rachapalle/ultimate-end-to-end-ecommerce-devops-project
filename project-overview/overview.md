@@ -1,1 +1,16 @@
 Real-time DevOps implementation using **E-Commerce demo project** open-sourced by **OpenTelemetry**. 
+This project follows a **multi-microservice architecture**, where each microservice is developed in different programming languages.
+
+# Project Architecture
+
+Project architecture diagram and the explaination is available at the below link.
+
+- Architecture
+```
+https://opentelemetry.io/docs/demo/architecture/
+```
+
+- Overview of microservices used in the project
+```
+https://opentelemetry.io/docs/demo/services/
+```
