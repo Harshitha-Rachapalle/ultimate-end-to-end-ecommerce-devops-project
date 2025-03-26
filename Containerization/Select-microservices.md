@@ -1,9 +1,11 @@
 (https://opentelemetry.io/docs/demo/architecture/)
 Identify microservices from different languages . from above architecture , i;m going to containerize the services in 3 languages i.e Go, java, python
 
-Go--> product catalog service
-java-->ad service, queue(kafka) service
-python-->recommendation service
+**Go**--> product catalog service
+
+**java**-->ad service, queue(kafka) service
+
+**python**-->recommendation service
 
 # product catalog service
 open this repo (https://github.com/Harshitha-Rachapalle/project-opentelemetry-demo) where all source code is provided by the opentelemetry official project
