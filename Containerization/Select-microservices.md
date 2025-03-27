@@ -25,6 +25,14 @@ ls
 
 cd product-catalog/
 
+export PRODUCT_CATALOG_PORT=8088
+
+check whether **go** is installed or not
+
+if not the install using below command
+
+```sudo apt install golang-go```
+
 go build -o product-catalog .  (here -o is destination where binary name is product-catalog)
 
 ./product-catalog
@@ -32,11 +40,15 @@ go build -o product-catalog .  (here -o is destination where binary name is prod
 when we run this we can get output which is same in readme file
 
 i.e 
-Loading Product Catalog...
- 
-Loaded 10 products
+output:
 
-Product Catalog reload interval: 10
+ Loading Product Catalog...
+ 
+ Loaded 10 products
+ 
+ Product Catalog reload interval: 10
+ 
+ Product Catalog gRPC server started on port: 8088
 
 
 
