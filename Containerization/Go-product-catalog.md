@@ -10,9 +10,9 @@ To check if it is deleted or not
 
 Now start create a dockerfile 
 
-' FROM golang:1.24 AS builder
+'FROM golang:1.24 AS builder'
 
-WORKDIR /app
+`WORKDIR /app`
 
 COPY . .
 
