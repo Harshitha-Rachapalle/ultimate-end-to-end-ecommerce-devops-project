@@ -6,11 +6,11 @@ Now, remove dockerfile which is already existing and start create new one
 
 To check if it is deleted or not
 
--``` git status'''
+-' git status'
 
 Now start create a dockerfile 
 
-''' FROM golang:1.24 AS builder
+' FROM golang:1.24 AS builder
 
 WORKDIR /app
 
@@ -34,6 +34,6 @@ ENV PRODUCT_CATALOG_PORT=8080
 
 EXPOSE ${PRODUCT_CATALOG_PORT}
 
-ENTRYPOINT ["/app/product-catalog"]```
+ENTRYPOINT ["/app/product-catalog"]`
 
 
