@@ -63,9 +63,11 @@ If it’s empty or incorrect, set it manually:
 
 Make it permanent:
 
-```echo "export JAVA_HOME=/usr/lib/jvm/java-21-openjdk-amd64" >> ~/.bashrc
+```
+echo "export JAVA_HOME=/usr/lib/jvm/java-21-openjdk-amd64" >> ~/.bashrc
 echo "export PATH=\$JAVA_HOME/bin:\$PATH" >> ~/.bashrc
-source ~/.bashrc```
+source ~/.bashrc
+```
 
 **3️⃣ Verify Gradle is Using the Correct Java**
 
