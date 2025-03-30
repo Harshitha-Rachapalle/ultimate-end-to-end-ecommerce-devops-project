@@ -34,9 +34,9 @@ BUILD FAILED in 2s
 **1️⃣ Check Java Installation**
 
 **Run:**
-`which java
-
-which javac`
+```which java
+which javac
+```
 
 Expected output (or similar):
 
@@ -45,21 +45,24 @@ Expected output (or similar):
 
 Then check the Java version:
 
-`java -version`
-
-`javac -version`
+```java -version
+javac -version
+```
 
 If both show Java 21, then Java is installed correctly.
 
 **2️⃣ Set JAVA_HOME Properly**
 If JAVA_HOME is not set correctly, Gradle will fail. Run:
 
-`echo $JAVA_HOME`
+```
+echo $JAVA_HOME
+```
 If it’s empty or incorrect, set it manually:
 
-```export JAVA_HOME=/usr/lib/jvm/java-21-openjdk-amd64```
-
-```export PATH=$JAVA_HOME/bin:$PATH```
+```
+export JAVA_HOME=/usr/lib/jvm/java-21-openjdk-amd64
+export PATH=$JAVA_HOME/bin:$PATH
+```
 
 Make it permanent:
 
@@ -73,7 +76,9 @@ source ~/.bashrc
 
 Run:
 
-```./gradlew --version```
+```
+./gradlew --version
+```
 
 It should show Java 21.
 
@@ -81,8 +86,10 @@ It should show Java 21.
 
 Now, try:
 
-```./gradlew --stop
+```
+./gradlew --stop
 ./gradlew clean
-./gradlew --info installDist```
+./gradlew --info installDist
+```
 This ensures Gradle picks up the correct Java installation.
 
