@@ -12,12 +12,14 @@ Then,
 
 **1.Install java version latest**
 
-```sudo apt install openjdk-21-jre-headless
+```
+sudo apt install openjdk-21-jre-headless
 ```
 
 **2.give permission to gradle wrapper**
 
-```chmod +x ./gradlew
+```
+chmod +x ./gradlew
 ```
 
 **3. To build Ad Service, run:**
