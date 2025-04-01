@@ -22,36 +22,66 @@ Networks
 Volume
 
 **Key       	Description**
-version	      Specifies the Compose file format (latest is 3.8)
 
-services  	  Defines containers (like web, database)
+**version**
 
-image	        Specifies the Docker image to use
+Specifies the Compose file format (latest is 3.8)
 
-ports	Maps    container ports to host machine
+**services**
 
-environment	  Defines environment variables for containers
+Defines containers (like web, database)
 
-volumes	      Persists data between container restarts
+**image**
 
-depends_on  	Ensures service order (e.g., database starts before the web app)
+Specifies the Docker image to use
+
+**ports	Maps**
+
+container ports to host machine
+
+**environment**
+
+Defines environment variables for containers
+
+**volumes**
+
+Persists data between container restarts
+
+**depends_on**
+
+Ensures service order (e.g., database starts before the web app)
 
 
 # Useful Docker Compose Commands
 
 **Command	                  Description**
-docker-compose up	          Starts containers defined in docker-compose.yml
 
-docker-compose up -d      	Runs containers in the background
+**docker-compose up**
 
-docker-compose down        	Stops and removes containers, networks, and volumes
+Starts containers defined in docker-compose.yml
 
-docker-compose ps          	Lists running containers
+**docker-compose up -d**
 
-docker-compose logs	        Shows logs of all services
+Runs containers in the background
 
-docker-compose restart    	Restarts all services
+**docker-compose down**
 
-docker-compose exec <service> <command>	     Runs a command inside a running container
+Stops and removes containers, networks, and volumes
+
+**docker-compose ps**  
+
+Lists running containers
+
+**docker-compose logs**
+
+Shows logs of all services
+
+**docker-compose restart**
+
+Restarts all services
+
+**docker-compose exec <service> <command>** 
+
+Runs a command inside a running container
 
 
